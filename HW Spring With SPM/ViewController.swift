@@ -13,8 +13,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func renCoreAnimation(_ sender: UIButton) {
-        
-    
+        sender.pulsate()
         
     }
 }
