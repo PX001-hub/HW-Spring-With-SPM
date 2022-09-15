@@ -114,6 +114,9 @@
 				Base,
 			);
 			mainGroup = 2C5D45BD28D239D5003E41F3;
+			packageReferences = (
+				2C42824428D3276400399589 /* XCRemoteSwiftPackageReference "Spring" */,
+			);
 			productRefGroup = 2C5D45C728D239D5003E41F3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -362,6 +365,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C42824428D3276400399589 /* XCRemoteSwiftPackageReference "Spring" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LexDeBash/Spring.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 2C5D45BE28D239D5003E41F3 /* Project object */;
 }
