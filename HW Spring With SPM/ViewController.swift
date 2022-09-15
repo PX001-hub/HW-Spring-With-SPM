@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var coreAnimation: UIView!
+    @IBOutlet var coreAnimationView: UIView!
     
     
     @IBAction func runCoreAnimation(_ sender: UIButton) {
@@ -17,8 +17,8 @@ class ViewController: UIViewController {
         UIView.animate(
             withDuration: 0.5,
             delay: 0,
-            options: [.autoreverse, .repeat]) { [unowned self]
-            self.coreAnimationView.frame.origin.x -= 40
+            options: [.autoreverse, .repeat]) { [unowned self] in
+                coreAnimationView.frame.origin.x -= 40
         }
         
         sender.pulsate()
